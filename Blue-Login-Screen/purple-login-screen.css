@@ -8,8 +8,12 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f3f4f6;
-    color: #1d1e22;
+    background-color: #e7eaf0;
+    color: #420094;
+    font-family: 'Foldit', cursive;
+    font-size: 25px;
+    font-style: italic;
+    
     font-family: 'Raleway', sans-serif;
 }
 
@@ -23,7 +27,18 @@ body{
 .login-card{
     width: 500px;
     height: auto;
-    background-color: #fff;
+    background-color: #6adaff;
     box-shadow: 0 3px 50px 0 rgba(0, 0, 0, 0.2), 0 1px 50px 0 rgba(0, 0, 0, 0.19);
     border-radius: 45px;
+}
+
+.login-card-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 65px;
+    margin: 65px 30px 30px;
+    width: auto;
+    height: auto;
 }
