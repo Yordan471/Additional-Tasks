@@ -72,3 +72,11 @@ header{
     color: #FF3D3D94;
     border: 1px solid #FF3D3D94;
 }
+
+header .logo{
+    font-size: 17pt;
+    margin-left: 10px;
+    color: antiquewhite;
+    font-weight: 900;
+    text-align: center;
+}
