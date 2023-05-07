@@ -80,3 +80,13 @@ header .logo{
     font-weight: 900;
     text-align: center;
 }
+
+.box{
+    border: none;
+    outline: none;
+    border-radius: 11px;
+    backdrop-filter: blur(10px);
+    box-shadow: 3px 3px 5px #FF3D3D94;
+    width: 300px;
+    height: 250px;
+}
