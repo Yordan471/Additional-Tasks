@@ -37,3 +37,20 @@ header{
     font-weight: 600;
     text-transform: capitalize;
 }
+
+.links a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background: antiquewhite;
+    height: 1px;
+    width: 0%;
+    transition: transform 0.5s;
+    transform: scaleX(1);
+}
+
+.links a:hover:after{
+    width: 100%;
+    transform: scaleX(1);
+}
