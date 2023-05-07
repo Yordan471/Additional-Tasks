@@ -86,7 +86,7 @@ header .logo{
     outline: none;
     border-radius: 11px;
     backdrop-filter: blur(10px);
-    box-shadow: 3px 3px 5px #FF3D3D94;
+    box-shadow: 3px 3px 5px #ffcb3d94;
     width: 300px;
     height: 250px;
 }
