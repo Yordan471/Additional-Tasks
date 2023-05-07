@@ -54,3 +54,15 @@ header{
     width: 100%;
     transform: scaleX(1);
 }
+
+.buttonlogin{
+    margin: 10px;
+    background: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    font-size: 10pt;
+    font-weight: 900;
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+    transition: 1s;
+}
