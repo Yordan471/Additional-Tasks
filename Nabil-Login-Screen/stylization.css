@@ -3,3 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-size: 15pt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(/Nabil-Login-Screen/images/cosmos1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
