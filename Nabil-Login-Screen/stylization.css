@@ -124,3 +124,13 @@ header .logo{
     width: 86%;
     transform: scale(1);
 }
+
+.palcEmail input{
+    width: 200px;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    color: antiquewhite;
+    padding: 10px;
+}
