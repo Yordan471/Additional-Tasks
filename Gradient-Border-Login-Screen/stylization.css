@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
 }
+
+body{
+    background-image: url(/Gradient-Border-Login-Screen/images/background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
