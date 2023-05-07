@@ -70,7 +70,7 @@ body{
     left: 0;
     padding: 20px 0px 10px;
     pointer-events: none;
-    color: #8f8f8f;
+    color: #f8f8f8;
     font-size: 1.5em;
     letter-spacing: 0.05em;
     transition: 0.5s;
@@ -82,3 +82,31 @@ body{
     font-size: 0.75em;
     transform: translateY(-34px);
 }
+
+.box form .inputBox i{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    border-radius: 4px;
+    overflow: hidder;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.box form .inputBox input:valid ~ i,
+.box form .inputBox input:focus ~ i{
+    height: 44px;
+}
+
+.box form .link{
+    display: flex;
+    justify-content: space-between;
+}
+
+.box form .link a{
+    
+}
+
