@@ -129,8 +129,21 @@ header .logo{
     width: 200px;
     background: transparent;
     border: none;
-    outline: none;
+    outline-style: solid;
     border-radius: 10px;
     color: antiquewhite;
     padding: 10px;
+}
+
+.palcEmail input:focus{
+   outline: solid;
+}
+
+.palcEmail button{
+    background-color: none;
+    border: none;
+}
+
+.palcEmail input::placeholder{
+    color: antiquewhite;
 }
